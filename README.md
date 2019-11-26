@@ -1,5 +1,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Began this project: 11.25.19
+### First Meeting with Kris: 11.20.19
+
 ## Available Scripts
 
 In the project directory, you can run:
