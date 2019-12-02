@@ -1,4 +1,4 @@
-// Testing push to remote repo 11.29.19
+// Testing push to remote repo from local laptop 11.29.19 - successful!
 // Began this project on 11.25.19
 // Had first meeting with Kris on 11.20.19
 
@@ -8,11 +8,24 @@ import ReactDOM from 'react-dom';
 
 // Create a react component
 const App = () => {
-  return <div>Hi there!</div>;
+	const buttonText = { text: 'Click me' };
+	const labelText = 'Enter name: ';
+
+	return (
+		<div>
+			<label className="label" htmlFor="className">
+				{labelText}
+			</label>
+			<input id="name" type="text" />
+			<button style={{ backgroundColor: 'blue', color: 'white' }}>
+				{buttonText.text}
+			</button>
+		</div>
+	);
 };
 
 // Take the react component and show it on the screen
 ReactDOM.render(
-  <App />,
-  document.querySelector('#root')
+	<App />,
+	document.querySelector('#root')
 );
